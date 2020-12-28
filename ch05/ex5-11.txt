@@ -1,0 +1,9 @@
+비정규 통계학
+
+50.0% level was 23 ns
+90.0% level was 30 ns
+99.0% level was 43 ns
+99.9% level was 164 ns
+99.99% level was 248 ns
+99.999% level was 3,458 ns
+99.9999% level was 17,463 ns

@@ -1,0 +1,27 @@
+Benchmark                    Mode  Cnt      Score      Error  Units
+SortBenchmark.classicSort   thrpt  200  14373.039 ±  111.586  ops/s
+SortBenchmark.parallelSort  thrpt  200   7917.702 ±   87.757  ops/s
+SortBenchmark.standardSort  thrpt  200  12656.107 ±   84.849  ops/s
+
+
+Iteration   1:
+[GC (Allocation Failure)  65496K->1480K(239104K), 0.0012473 secs]
+[GC (Allocation Failure)  63944K->1496K(237056K), 0.0013170 secs]
+10830.105 ops/s
+Iteration 2:
+[GC (Allocation Failure)  62936K->1680K(236032K), 0.0004776 secs]
+10951.704 ops/s
+
+
+Iteration   1:
+[GC (Allocation Failure)  52952K->1848K(225792K), 0.0005354 secs]
+[GC (Allocation Failure)  52024K->1848K(226816K), 0.0005341 secs]
+[GC (Allocation Failure)  51000K->1784K(223744K), 0.0005509 secs]
+[GC (Allocation Failure)  49912K->1784K(225280K), 0.0003952 secs]
+9526.212 ops/s
+Iteration   2:
+[GC (Allocation Failure)  49400K->1912K(222720K), 0.0005589 secs]
+[GC (Allocation Failure)  49016K->1832K(223744K), 0.0004594 secs]
+[GC (Allocation Failure)  48424K->1864K(221696K), 0.0005370 secs]
+[GC (Allocation Failure)  47944K->1823K(222720K), 0.0004966 secs]
+[GC (Allocation Failure)  47400K->1864K(220672K), 0.0005004 secs]

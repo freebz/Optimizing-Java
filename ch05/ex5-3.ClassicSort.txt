@@ -1,0 +1,6 @@
+java -Xms2048m -Xmx2048m -verbose:gc ClassicSort
+
+Testing Sort Algorithm
+[GC (Allocation Failure)  524800K->632K(2010112K), 0.0009038 secs]
+[GC (Allocation Failure)  525432K->672K(2010112K), 0.0008671 secs]
+Result: 9838.556465303362 op/s

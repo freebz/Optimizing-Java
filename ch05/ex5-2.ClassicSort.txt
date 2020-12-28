@@ -1,0 +1,18 @@
+java -Xms2048m -Xmx2048m -XX:+PrintCompilation ClassicSort
+
+정렬 알고리즘 테스트
+  73   29   3   java.util.ArrayList::ensureExplicitCapacity (26 bytes)  
+  73   31   3   java.lang.Integer::valueOf (32 bytes)
+  74   32   3   java.util.concurrent.atomic.AtomicLong::get (5 bytes)
+  74   33   3   java.util.concurrent.atomic.AtomicLong::compareAndSet (13 bytes)  
+  74   35   3   java.util.Random::next (47 bytes)
+  74   36   3   java.lang.Integer::compareTo (9 bytes)
+  74   38   3   java.lang.Integer::compare (20 bytes)  
+  74   37   3   java.lang.Integer::compareTo (12 bytes)
+  74   39   4   java.lang.Integer::compareTo (9 bytes)
+  75   36   3   java.lang.Integer::compareTo (9 bytes) made not entrant
+  76   40   3   java.util.ComparableTimSort::binarySort (223 bytes)
+  77   41   3   java.util.ComparableTimSort::mergeLo (656 bytes)
+  79   42   3   java.util.ComparableTimSort::countRunAndMakeAscending (123 bytes)
+  79   45   3   java.util.ComparableTimSort::gallopRight (327 bytes)
+  80   43   3   java.util.ComparableTimSort::pushRun (31 bytes)    
