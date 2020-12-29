@@ -1,0 +1,25 @@
+마크 앤 스위프
+
+jmap -histo
+
+num    #instances      #bytes class name
+---------------------------------------------
+ 1:         20839    14983608 [B
+ 2:        118743    12370760 [C
+ 3:         14528     9385360 [I
+ 4:           282     6461584 [D
+ 5:        115231     3687392 java.util.HashMap$Node
+ 6:        102237     2453688 java.lang.String
+ 7:         68377     2188416 java.util.Hashtable$Entry
+ 8:          8708     1764328 [Ljava.util.HashMap$Node;
+ 9:         39047     1561880 jdk.nashorn.internal.runtime.CompiledFunction
+10:         23688     1516032 com.mysql.jdbc.Co...$BooleanConnectionProperty
+11:         24217     1356152 jdk.nashorn.internal.runtime.ScriptFunction
+12:         27344     1301896 [Ljava.lang.Object;
+13:         10040     1107896 java.lang.Class
+14:         44090     1058160 java.util.LinkedList$Node
+15:         29375      940000 java.util.LinkedList
+16:         25944      830208 jdk.nashorn.internal...FinalScriptFunctionData
+17:            20      655680 Lscala.concurrent.forkjoin.ForkJoinTask;
+18:         19943      638176 java.util.concurrent.ConcurrentHashMap$Node
+20:         24022      578560 [Ljava.lang.Class;
