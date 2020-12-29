@@ -1,0 +1,13 @@
+Parallel GC 튜닝
+
+플래그 세트:
+
+-XX:NewRatio=N
+-XX:SurvivorRatio=K
+
+영 세대 = 1 / (N + 1) x 힙
+올드 세대 = N / (N + 1) x 힙
+
+에덴 = (K - 2) / K x 힙
+서바이버1 = 1 / K x 힙
+서바이버2 = 1 / K x 힙

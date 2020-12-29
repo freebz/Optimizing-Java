@@ -1,0 +1,10 @@
+Result "scanCardTable":
+  108.904 ±(99.9%) 16.147 ops/s [Average]
+  (min, avg, max) = (102.915, 108.904, 114.266), stdev = 4.193
+  CI (99.9%): [92.757, 125.051] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:01:46
+
+Benchmark                         Mode  Cnt    Score    Error  Units
+SimulateCardTable.scanCardTable  thrpt    5  108.904 ± 16.147  ops/s
