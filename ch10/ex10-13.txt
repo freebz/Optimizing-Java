@@ -1,0 +1,4 @@
+Benchmark                                  Mode  Cnt  Score       Error  Units
+PeelMega...Callsite.runBimorphic          thrpt  200  75844310 ±  43557  ops/s
+PeelMega...Callsite.runMegamorphic        thrpt  200  54650385 ±  91283  ops/s
+PeelMega...Callsite.runPeeledMegamorphic  thrpt  200  62021478 ± 150092  ops/s

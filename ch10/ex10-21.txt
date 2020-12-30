@@ -1,0 +1,3 @@
+Benchmark                                   Mode  Cnt     Score   Error  Units
+DomainS...UpperCase.testCustomToUpperCase  thrpt  200  20138368 ± 17807  ops/s
+DomainS...UpperCase.testStringToUpperCase  thrpt  200   8350400 ±  7199  ops/s

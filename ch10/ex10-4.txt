@@ -1,0 +1,3 @@
+Benchmark                         Mode   Cnt  Score      Error  Units
+LoopUnrollingCounter.intStride1   thrpt  200  2423.818 ± 2.547  ops/s
+LoopUnrollingCounter.longStride1  thrpt  200  1469.833 ± 0.721  ops/s

@@ -1,0 +1,15 @@
+instruct log10D_reg(regD dst) %{
+  // The source and result Double operands in XMM registers
+  // match(Set dst (Log10D dst));
+  // ﬂdlg2       ; push log_10(2) on the FPU stack; full 80-bit number
+  // fyl2x        ; compute log_10(2) * log_2(x)
+  format %{ "ﬂdlg2\t\t\t#Log10\n\t"
+            "fyl2x\t\t\t# Q=Log10*Log_2(x)\n\t"
+	 %}
+  ins_encode(Opcode(0xD9), Opcode(0xEC),
+             Push_SrcXD(dst),
+
+             Opcode(0xD9), Opcode(0xF1),
+	     Push_ResultXD(dst));
+  ins_pipe( pipe_slow );
+%}

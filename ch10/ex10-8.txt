@@ -1,0 +1,4 @@
+Benchmark                         Mode  Cnt  Score           Error     Units
+EscapeTestArraySize.arraySize63  thrpt  200  49824186.696 ±  9366.780  ops/s
+EscapeTestArraySize.arraySize64  thrpt  200  49815447.849 ±  2328.928  ops/s
+EscapeTestArraySize.arraySize65  thrpt  200  21115003.388 ± 34005.817  ops/s

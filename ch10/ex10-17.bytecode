@@ -1,0 +1,29 @@
+public static void main(java.lang.String[]);
+ descriptor: ([Ljava/lang/String;)V
+ flags: ACC_PUBLIC, ACC_STATIC
+ Code:
+   stack=4, locals=5, args_size=1
+    0: new           #2      // class java/util/Random
+    3: dup
+    4: invokespecial #3      // Method java/util/Random."<init>":()V
+    7: astore_1
+    8: lconst_0
+    9: lstore_2
+   10: iconst_0
+   11: istore        4
+   13: iload         4
+   15: ldc           #4      // int 1000000
+   17: if_icmpge     36
+   20: lload_2
+   21: aload_1
+   22: bipush        100
+   24: invokevirtual #5      // Method java/util/Random.nextInt:(I)I
+   27: i2l
+   28: ladd
+   29: lstore_2
+   30: iinc          4, 1
+   33: goto          13
+   36: getstatic     #6      // Field java/lang/System.out:Ljava/io/PrintStream;
+   39: lload_2
+   40: invokevirtual #7      // Method java/io/PrintStream.println:(J)V
+   43: return

@@ -1,0 +1,6 @@
+$ java -XX:EliminateAllocationArraySizeLimit=65 -jar target/benchmarks.jar
+
+Benchmark                         Mode  Cnt  Score          Error     Units
+EscapeTestArraySize.arraySize63  thrpt  200  49814492.787 ± 2283.941  ops/s
+EscapeTestArraySize.arraySize64  thrpt  200  49815595.566 ± 5833.359  ops/s
+EscapeTestArraySize.arraySize65  thrpt  200  49818143.279 ± 2347.695  ops/s

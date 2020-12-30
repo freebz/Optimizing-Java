@@ -1,0 +1,3 @@
+Benchmark                 Mode  Cnt      Score     Error  Units
+HugeMethod.lessThan8000  thrpt  100  89550.631 ±  77.703  ops/s
+HugeMethod.moreThan8000  thrpt  100  44429.392 ± 102.076  ops/s
