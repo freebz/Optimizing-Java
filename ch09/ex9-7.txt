@@ -1,0 +1,7 @@
+코드 캐시
+
+--XX:ReservedCodeCacheSize=<n>
+
+
+251658240 (240MB) when tiered compilation is enabled (--XX:+TieredCompilation)
+ 50331648  (48MB) when tiered compilation is disabled (--XX:-TieredCompilation)

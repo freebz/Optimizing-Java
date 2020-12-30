@@ -1,0 +1,5 @@
+public void otherMethod()
+  Code:
+     0: aload_1
+     1: invokespecial #4                // Method A.fMethod:()V
+     4: return
