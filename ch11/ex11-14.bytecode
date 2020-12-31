@@ -1,0 +1,25 @@
+  0: getstatic     #2  // Field java/lang/Integer.TYPE:Ljava/lang/Class;
+  3: invokestatic  #3  // Method java/lang/invoke/MethodType.methodType:
+                       // (Ljava/lang/Class;)Ljava/lang/invoke/MethodType;
+  6: astore_1
+  7: invokestatic  #4  // Method java/lang/invoke/MethodHandles.lookup:
+                       // ()Ljava/lang/invoke/MethodHandle$Lookup;
+ 10: astore_2
+ 11: aload_2
+ 12: ldc           #5  // class java/lang/String
+ 14: ldc           #6  // String hashCode
+ 16: aload_1
+ 17: invokevirtual #7  // Method java/lang/invoke/MethodHandle$Lookup.FindVirtual:
+                       // (Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/
+		       // MethodType;)Ljava/lang/invoke/MethodHandle;
+ 20: astore_3
+ 21: ldc           #8  // String b
+ 23: astore        4
+ 25: aload_3
+ 26: aload         4
+ 28: invokevirtual #9  // Method java/lang/invoke/MethodHandle.invoke
+                       // :(Ljava/lang/String;)I
+ 31: istore        5
+ 33: getstatic     #10 // Field java/lang/System.out:Ljava/io/PrintStream;
+ 36: iload         5
+ 38: invokevirtual #11 // Method java/io/PrintStream.println:(I)V

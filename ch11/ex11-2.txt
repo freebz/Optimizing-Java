@@ -1,0 +1,13 @@
+Benchmark                             Mode  Cnt    Score   Error   Units
+ResizingList.properlySizedArrayList  thrpt   10  287.388 ± 7.135   ops/s
+ResizingList.resizingArrayList       thrpt   10  189.510 ± 4.530   ops/s
+
+
+Benchmark                             Mode  Cnt    Score    Error  Units
+InsertBegin.beginArrayList           thrpt   10    3.402 ±  0.239  ops/s
+InsertBegin.beginLinkedList          thrpt   10  559.570 ± 68.629  ops/s
+
+
+Benchmark                             Mode  Cnt       Score       Error  Units
+AccessingList.accessArrayList        thrpt   10  269568.627 ± 12972.927  ops/s
+AccessingList.accessLinkedList       thrpt   10       0.863 ±     0.030  ops/s

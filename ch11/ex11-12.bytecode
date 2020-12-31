@@ -1,0 +1,14 @@
+    17: icost_0
+    18: new           #2  // class java/lang/Object
+    21: dup
+    22: invokespecial #1  // Method java/lang/Object."<init>":()V
+    25: aastore
+    26: dup
+    27: icost_1
+    28: new           #2  // class java/lang/Object
+    31: dup
+    32: invokespecial #1  // Method java/lang/Object."<init>":()V
+    35: astore
+    36: invokevirtual #3  // Method java/lang/reflect/Method.invoke
+                          // :(Ljava/lang/Object;[Ljava/lang/Object;)
+			  // Ljava/lang/Object;
