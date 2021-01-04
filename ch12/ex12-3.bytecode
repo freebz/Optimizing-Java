@@ -1,0 +1,16 @@
+ A0: aload_0
+ A1: aload_0
+ A2: getField #2 // Field i:I
+ A5: iconst_1
+ A6: iadd
+ A7: dup_x1
+ B0: aload_0
+ B1: aload_0
+ B2: getField #2 // Field i:I
+ B5: iconst_1
+ B6: iadd
+ B7: dup_x1
+ A8: putField #2 // Field i:I
+ A11: ireturn
+ B8: putField #2 // Field i:I
+ B11: ireturn

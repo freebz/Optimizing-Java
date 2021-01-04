@@ -1,0 +1,10 @@
+public int increment();
+    Code:
+    0: aload_0
+    1: aload_0
+    2: getField     #2  // Field i:I
+    5: iconst_1
+    6: iadd
+    7: dup_x1
+    8: putField     #2  // Field i:I
+   11: ireturn
