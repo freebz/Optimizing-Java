@@ -1,0 +1,24 @@
+public void showConstsAndLdc();
+  Code:
+     0: aconst_null
+     1: astore_1
+     2: iconst_m1
+     3: istore_2
+     4: iconst_0
+     5: istore_2
+     6: iconst_1
+     7: istore_2
+     8: ldc           #3      // String Hello World
+    10: astore_1
+    11: dconst_0
+    12: dstore_3
+    13: ldc2_w        #4      // double 3.142d
+    16: dstore_3
+    17: return
+
+
+
+    #3 = String       #29     // Hello World
+    #4 = Double       3.14d
+...
+   #29 = Utf8         Hello World

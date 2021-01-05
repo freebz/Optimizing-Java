@@ -1,0 +1,30 @@
+public void mh() throws java.lang.Exception;
+  Code:
+     0: getstatic     #6   // Field java/lang/Void.TYPE:Ljava/lang/Class;
+     3: invokestatic  #7   // Method java/lang/invoke/MethodType.methodType:
+                           // (Ljava/lang/Class;)Ljava/lang/invoke/MethodType;
+     6: astore_1
+     7: invokestatic  #8   // Method java/lang/invoke/MethodHandles.lookup:
+                           // ()Ljava/lang/invoke/MethodHandles$Lookup;
+    10: ldc           #2   // class optjava/bc/BytecodePatterns
+    12: ldc           #9   // String mh
+    14: aload_1
+    15: invokevirtual #10  // Method java/lang/invoke/MethodHandles$Lookup.
+                           // FindVirtual:(Ljava/lang/Class;Ljava/lang/
+			   // String;Ljava/lang/invoke/MethodType;)Ljava/
+			   // lang/invoke/MethodHandle;
+    18: astore_2
+    19: return
+}
+
+
+
+#58 = MethodHandle  #6:#84  // invokestatic java/lang/invoke/LambdaMetafactory.
+                            // metafactory:(Ljava/lang/invoke/MethodHandles
+			    // $Lookup;Ljava/lang/string;Ljava/lang/invoke/
+			    // MethodType;Ljava/lang/invoke/MethodType;Ljava/
+			    // lang/invoke/MethodHandle;Ljava/lang/invoke/
+			    // MethodType;)Ljava/lang/invoke/CallSite;
+#59 = MethodType    #22     //  ()V
+#60 = MethodHandle  #6:#85  // invokestatic optjava/bc/BytecodePatterns.
+                            // lambda$lambda$0:()V
